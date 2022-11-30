@@ -1,0 +1,183 @@
+.Login .Login__Title {
+  position: absolute;
+  width: 351.02px;
+  height: 44px;
+  left: 300.34px;
+  top: 204.75px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height, or 122% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.Login .Login__Message {
+  position: absolute;
+  width: 271.3px;
+  height: 33.1px;
+  left: 340.2px;
+  top: 259.91px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  /* or 162% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.Login .Login__suggest {
+  position: absolute;
+  width: 137.58px;
+  height: 16.55px;
+  left: 430.07px;
+  top: 500.19px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  /* or 112% */
+
+  color: #000000;
+}
+
+/* Selection logo */
+.Login__LogoSelection {
+  display: flex;
+  gap: 40px;
+  position: absolute;
+  width: 427.81px;
+  height: 48.54px;
+  left: 259.42px;
+  top: 325.55px;
+  justify-content: center;
+}
+.Login__LogoSelection .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 162.01px;
+  height: 48.54px;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.Login__LogoSelection .logo img {
+  height: 40px;
+}
+.Login__LogoSelection .logo div {
+  width: 40px;
+}
+
+.Login .Login__ToggleSection {
+  position: absolute;
+  width: 513.93px;
+  height: 23.17px;
+  left: 219.73px;
+  top: 697.34px;
+}
+
+.Login__Detail_id {
+  display: flex;
+  gap: 40px;
+  position: absolute;
+  width: 514.32px;
+  height: 77.23px;
+  left: 219.34px;
+  top: 478.35px;
+
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+
+  font-family: 'Poppins';
+  font-style: oblique;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 14px;
+}
+
+.Login__Detail_pass {
+  display: flex;
+  gap: 40px;
+  position: absolute;
+  width: 514.32px;
+  height: 77.23px;
+  left: 219.34px;
+  top: 597.5px;
+
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+
+  font-family: 'Poppins';
+  font-style: oblique;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 14px;
+}
+
+.Login__RightSide {
+  position: absolute;
+  width: 487px;
+  height: 1024px;
+  left: 953px;
+  top: 0px;
+
+  background-image: url('https://aic.nsw.edu.au/wp-content/uploads/elementor/thumbs/gu-2321-p6d9v1nd1r8tgwkjchh17xh6849qpgwbdnexyk1n6o.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Login__RightSide .contentBox {
+  position: absolute;
+  height: 253.54px;
+  left: 981.32px;
+  right: 44.28px;
+  bottom: 65.46px;
+
+  background: rgba(255, 242, 242, 0.13);
+  backdrop-filter: blur(50px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+}
+
+.Login__LeftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 94px;
+
+  position: absolute;
+  width: 953px;
+  height: 1024px;
+  left: calc(50% - 953px / 2 - 243.5px);
+  top: calc(50% - 1024px / 2);
+}
+
+.Login__Form {
+  width: 514.32px;
+  height: 614.5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

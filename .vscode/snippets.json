@@ -1,0 +1,58 @@
+{
+  // Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
+  // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
+  // is left empty or omitted, the snippet gets applied to all languages. The prefix is what is
+  // used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and \${1:label}, \${2:another} for placeholders.
+  // Placeholders with the same ids are connected.
+  // Example:
+  // "Print to console": {
+  //   "scope": "javascript,typescript",
+  //   "prefix": "log",
+  //   "body": ["console.log('$1');", "$2"],
+  //   "description": "Log output to console"
+  // }
+
+  "Create react function statement": {
+    "scope": "javascript, react",
+    "prefix": "rfce",
+    "body": [
+      "import React from 'react';\n",
+      "function ${1:first}() {\n",
+      "\treturn <div>${1:first}</div>;\n}\n",
+      "export default ${1:first};"
+    ],
+    "description": "Create react function statement"
+  },
+
+  "Import and export default": {
+    "scope": "javascript, react",
+    "prefix": "imex",
+    "body": [
+      "import ${2:second} from '${1:location}';",
+      "export default ${2:second};"
+    ],
+    "description": "Import and export default"
+  },
+
+  "Create const function": {
+    "scope": "javascript, react",
+    "prefix": "nfn",
+    "body": ["const ${1:first} = (${2:second}) => { ${3:third} };"],
+    "description": "Create const function"
+  },
+
+  "Console log info": {
+    "scope": "javascript, react",
+    "prefix": "clgi",
+    "body": ["console.log(${1:first});"],
+    "description": "Console log info"
+  },
+
+  "Console log error": {
+    "scope": "javascript, react",
+    "prefix": "clge",
+    "body": ["console.error(${1:first});"],
+    "description": "Console log error"
+  }
+}
